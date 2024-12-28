@@ -11,7 +11,7 @@ function displayFullName() {
         displayName.textContent = "Please enter your full name.";
         displayName.style.color = "red"; // Show an error message
     } else {
-        displayName.textContent = `Ohhh! Haloo ${fullName}!`;
+        displayName.textContent = `Haloo ${fullName}!`;
         displayName.style.color = "blue"; // Show success message
     }
 }
